@@ -1,0 +1,6 @@
+cdktf.out/
+dist/
+keys/
+node_modules/
+sftp.json
+*.tfstate*

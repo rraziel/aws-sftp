@@ -1,0 +1,22 @@
+{
+  "region": "<region>",
+  "profile": "<profile>",
+  "bucket": "<bucket-name>",
+  "domain": {
+    "name": "ftp.example.org",
+    "zone": "example.org"
+  },
+  "roles": {
+    "logging": "ftp_logging",
+    "user": "ftp_user"
+  },
+  "tags": {
+    "environment": "FTP"
+  },
+  "users": {
+    "keysPath": "./keys",
+    "userNames": [
+      "user1", "user2"
+    ]
+  }
+}
